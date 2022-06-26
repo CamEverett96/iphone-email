@@ -1,0 +1,463 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #c5c5c5 !important;
+}
+.container{
+  max-width: 600px;
+}
+.header-row{
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  padding: 0px 20px;
+  th{
+    padding: 0px 45px
+  }
+.logo{
+  font-size: 1.75rem;
+  color: aquamarine;
+}
+
+}
+.social-icons{
+
+  th{
+  text-align: right;
+  span{
+    margin-right: 5px;
+    color: rgb(189, 189, 185);
+  }
+  
+}
+}
+.content-1{
+  background-image: url(https://mailbuild.rookiewebstudio.com/item/64lm4Q4e/images_demo/set11-bg1.jpg);
+ width: 100%;
+ h1{
+  
+   color: white;
+   font-size: 1.5rem;
+   text-align: center;
+ }
+ p, .fa-solid{
+  color: white;
+  text-align: center;
+}
+.subtext{
+margin-bottom: .5rem;
+}
+.info-row{
+  display: flex;
+}
+}
+.content-2{
+  background-color:white ;
+  width: 100%;
+  margin-bottom: 1rem;
+  .inforow-2{
+    justify-content: center;
+    align-items: center;
+  }
+  h1{
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top:1rem;
+  }
+  p{
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .button{
+    text-align: center;
+    border: 1px solid rgb(29, 207, 209);
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+  
+
+  }
+}
+.content-3{
+  width: 100%;
+  h1{
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.75rem;
+  }
+  p{
+    color: rgb(136, 136, 136);
+  }
+  
+  .txt-left{
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+    font-size: 14px;
+    line-height: 24px;
+    word-break: break-word;
+    text-align: left;
+  }
+  .image-left{
+    max-width: 120px;
+  }
+  span{
+    text-align: left;
+   
+  }
+  .image-right{
+  max-width: 220;
+  }
+  .button{
+    text-align: center;
+    border: 1px solid rgb(29, 207, 209);
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+  
+
+  }
+}
+.content-4{
+  width: 400px;
+  margin-top: 2rem;
+ 
+  background-color: black;
+ 
+ 
+  th{
+    padding-left: 100px;
+    color: rgb(255, 255, 255);
+    max-width: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+  }
+  span{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-decoration: none;
+   
+    text-align: left;
+    
+  }
+  .title{
+    color: white;
+    font-size: 48px ;
+    margin-top: 1.5rem;
+  }
+  .subtitle{
+    font-size: 12px;
+  }
+  .socials{
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+   
+  }
+  .fa-brands{
+    color: white;
+    margin-right: 5px;
+  }
+  h1{
+    color: white;
+    font-size: 48px ;
+    margin-top: 1.5rem;
+  }
+  p{
+    color: white;
+  }
+}
+.content-5{
+  background-color: #191919;
+  th{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  span{
+    color: #1dcfd1;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 20px;
+  }
+  h1{
+    font-weight: normal;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 36px;
+  }
+  p{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: center;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    word-break: break-word;
+    hyphens: none;
+  }
+  .button{
+    text-align: center;
+    border: 1px solid rgb(29, 207, 209);
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+  }
+  .buttonl{
+    justify-content: center;
+  }
+  .buttonr{
+    justify-content: center;
+  }
+}
+.content-6{
+  width: 100%;
+
+  
+  img{
+    max-width: 265px;
+  }
+  h2{
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+    font-size: 24px;
+  }
+  p{
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+    font-size: 14px;
+  }
+  .fa-circle-check{
+    color:rgb(158, 248, 116);
+   margin-bottom: 10px;
+   padding-left: 10px;
+  }
+  .button{
+    text-align: center;
+    border: 1px solid rgb(29, 207, 209);
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .icon-row{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  
+  }
+}
+.content-7{
+  width:100%;
+  background-color: #eef0f3;
+ 
+
+img{
+  margin-bottom: 10px;
+  width: 25px;
+  height: 25px;
+  padding-right: 5px;
+  left:10px
+  }
+h1{
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+  padding-top: 40px;
+}
+p{
+  text-decoration: none;
+  color: rgb(136, 136, 136);
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 1.5rem;
+}
+span{
+  justify-content: center;
+}
+.button{
+  text-align: center;
+  border: 1px solid rgb(29, 207, 209);
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-bottom: 40px;
+  margin-top: 1.5rem;
+  
+}
+.icon-row{
+  margin-bottom: 10px;
+  margin-top: 10px;
+span{
+  padding-top: 5px;
+}
+  display: flex;
+  th{
+    display: flex;
+    justify-content: center;
+  }
+
+}
+}
+.content-8{
+  width:100;
+ 
+  h1{
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+    padding-top: 40px;
+  }
+  p{
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 1.5rem;
+  }
+  img{ 
+      width:100px;
+      height: 100px;
+    }
+ th{
+       background: color #f3f3f3;
+  }
+  .hl{
+    text-decoration: none;
+    color: rgb(6, 179, 172);
+    font-weight: normal;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+.content-last{
+  width: 100%;
+  background-color: #dadadb;
+ 
+  h1{
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+    padding-top: 40px;
+  }
+  h2{
+    color: rgb(51, 51, 51);
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  }
+  p{
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+  }
+  img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    float: right;
+    padding-right: 15px;
+  }
+    .inner-content{
+    padding: 42px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+}
+  }
+  .footer-top{
+    background-color: #1dcfd1;
+    display: flex;
+    flex-direction: column;
+
+    th{
+      padding-bottom: 40px;
+      padding-top: 20px;
+    }
+    
+    .fa-brands, .fa-solid{
+      position: relative;
+      max-width: 25px;
+    color: white;
+    padding:5px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    }
+    .address{
+      position: relative;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+    align-items: center;
+      padding-bottom: 30px;
+    }
+
+
+  }
+  @media screen and (max-width: 595px) {
+    .content-6{
+      
+      img {
+       width: 150px !important;
+      }
+   
+     
+    }
+    .content-7{
+      .button{
+        padding: 10px 7px;
+      }
+    }
+
+
+    .content-last{
+      padding-top: 10px;
+      .logo{
+        font-size: 10px;
+      }
+     h2{
+       padding-left:  5px;
+       padding-right:  5px;
+     }
+      img{
+        width: 50px !important;
+        height: 50px !important;
+      }
+      p{
+        padding: 0px 3px;
+      }
+
+    }
+    .fa-brands, .fa-solid{
+      padding-top: 10px;
+    }
+  }

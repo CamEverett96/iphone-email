@@ -110,17 +110,20 @@ margin-bottom: .5rem;
     font-size: 14px;
     line-height: 24px;
     word-break: break-word;
-    text-align: left;
+    text-align: center;
   }
   .image-left{
     max-width: 120px;
+    margin: 0 auto;
   }
   span{
-    text-align: left;
-   
+    display: flex;
+  justify-content: center;
+   text-align: center;
   }
   .image-right{
   max-width: 220;
+  margin: 0 auto;
   }
   .button{
     text-align: center;
@@ -136,16 +139,20 @@ margin-bottom: .5rem;
 .content-4{
   width: 400px;
   margin-top: 2rem;
+  display: flex;
  
   background-color: black;
  
  
   th{
-    padding-left: 100px;
+    padding-left: .5rem;
+    padding-right: .5rem;
     color: rgb(255, 255, 255);
     max-width: 400px;
     padding-top: 30px;
     padding-bottom: 30px;
+   display: flex;
+   flex-direction: column;
 
   }
   span{
@@ -153,7 +160,7 @@ margin-bottom: .5rem;
     font-weight: 400;
     text-decoration: none;
    
-    text-align: left;
+    
     
   }
   .title{
@@ -427,7 +434,7 @@ span{
 
 
   }
-  @media screen and (max-width: 598px) {
+  @media screen and (max-width: 596px) {
     .header-row{
       .logo{
         text-align: center !important ;
@@ -437,6 +444,12 @@ span{
 
      th{
      text-align: center;
+    }
+  }
+  .content-3{
+    span{
+    text-align: center !important;
+    color: #1dcfd1;
     }
   }
     .content-6{

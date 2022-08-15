@@ -6,9 +6,11 @@ body,
 html, 
 .body {
   background: #c5c5c5 !important;
+  
 }
 .container{
   max-width: 600px;
+  overflow: hidden;
 }
 .header-row{
   background-color: rgb(255, 255, 255);
@@ -20,13 +22,15 @@ html,
 .logo{
   font-size: 1.75rem;
   color: aquamarine;
+  text-align: center;
+
 }
 
 }
 .social-icons{
 
   th{
-  text-align: right;
+  text-align: center;
   span{
     margin-right: 5px;
     color: rgb(189, 189, 185);
@@ -423,7 +427,18 @@ span{
 
 
   }
-  @media screen and (max-width: 595px) {
+  @media screen and (max-width: 598px) {
+    .header-row{
+      .logo{
+        text-align: center !important ;
+       }
+    } 
+    .social-icons{
+
+     th{
+     text-align: center;
+    }
+  }
     .content-6{
       
       img {
